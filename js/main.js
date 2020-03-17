@@ -23,25 +23,3 @@ document.querySelector("#spock").addEventListener('click', (e) => {
 
 
   const ul = document.querySelector('ul')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  function game(){
-    let userAnswer = document.querySelector("input").value
-    fetch(`https://rPSLS?checkRPLS=`)
-      .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
-      .then(response => {
-        console.log()
